@@ -86,6 +86,39 @@ export default function PageProductForm() {
                     required
                   />
                 </Grid>
+                <Grid item xs={12}>
+                  <Field
+                    component={TextField}
+                    name="genre"
+                    label="Genre"
+                    fullWidth
+                    autoComplete="off"
+                    multiline
+                    required
+                  />
+                </Grid>
+                <Grid item xs={12}>
+                  <Field
+                    component={TextField}
+                    name="release_date"
+                    label="Release date"
+                    fullWidth
+                    autoComplete="off"
+                    multiline
+                    required
+                  />
+                </Grid>
+                <Grid item xs={12}>
+                  <Field
+                    component={TextField}
+                    name="image"
+                    label="Image link"
+                    fullWidth
+                    autoComplete="off"
+                    multiline
+                    required
+                  />
+                </Grid>
                 <Grid item xs={12} sm={4}>
                   <Field
                     component={TextField}
